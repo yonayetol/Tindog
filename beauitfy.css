@@ -1,0 +1,44 @@
+.gradient-background {
+    background: linear-gradient(300deg, #42E356, #E3DE42, #B0E342);
+    background-size: 180% 180%;
+    animation: the-anim 18s ease infinite;
+  }
+  @keyframes the-anim {
+    0% {background-position: 0% 50%}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+  }
+
+  .mine {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin: 15% 15% 5% 11%;
+  }
+  .icon-square{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+  }
+  #testimonials {
+    height: 100vh;
+  }
+  .lets-float {
+          position: relative; 
+          animation: floating 5s ease-in-out infinite;
+          width: 5%px; 
+  }
+      @keyframes floating {
+          0% {
+              left: -100px; 
+          }
+          50% {
+              left: calc(10% + 5px); 
+          }
+          100% {
+              left: -100px; 
+          }
+      }
+      .my_image {
+        border-radius: 30%;
+        width: 40vw;
+      }
